@@ -1,0 +1,3 @@
+dataAccess.DataAccess#guardarMensaje(Ldomain/Usuario;Ljava/lang/String;Ljava/util/Date;)Ldomain/Mensaje;
+domain.Mensaje#<init>(Ldomain/Usuario;Ljava/lang/String;Ljava/util/Date;)V
+domain.Mensaje#instance-init#

@@ -1,0 +1,3 @@
+gui.UsuarioGUI#jButtonBet_actionPerformed(Ljava/awt/event/ActionEvent;)V
+gui.SeleccionGUI#<init>(Ldomain/Usuario;)V
+gui.SeleccionGUI#instance-init#

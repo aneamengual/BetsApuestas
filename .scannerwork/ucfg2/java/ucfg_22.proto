@@ -1,0 +1,59 @@
+
+3dataAccess.DataAccess#cerrarEvento(Ldomain/Event;)Zd
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaç ç("3*±
+2d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javañ ñ(¿Ω
+d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javañ ñ(
+
+%5void"domain.Event#setFinalizar(Z)V*
+
+edomain.Event*22setFinalizar(Z)*
+1*è
+
+3d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaé é(í
+è
+d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaé é(
+%0java.io.PrintStream"__id*
+""œ
+Ã
+d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaé é(B
+%1java.lang.String"__concat*)'
+%>> DataAccess: cerrarEvento=> Event= *
+
+eventdomain.Event˚¯
+d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaé é(C
+
+%2void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%0java.io.PrintStream*
+
+%1java.lang.String2println(Ljava/lang/String;)ﬂ‹
+d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaê ê(4
+%3java.lang.Integer"0domain.Event#getEventNumber()Ljava/lang/Integer;*
+
+eventdomain.Event2getEventNumber()ä
+á
+d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaê ê(6
+edomain.Event"__id*
+""«ƒ
+d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaî î(&
+%4boolean""domain.Event#verificarPreguntas()Z*
+
+edomain.Event2verificarPreguntas()*
+2
+1*Ÿ
+1d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaö ö("n
+d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaõ õ(
+"":
+eventdomain.EventB
+dataAccess.DataAccess

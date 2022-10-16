@@ -1,0 +1,56 @@
+
+@dataAccess.DataAccess#getNumCuponesConseguido(Ldomain/Usuario;)Id
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaÑ Ñ(""1*¬
+1d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaÒ Ò(’
+
+d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaÒ Ò(
+%0java.io.PrintStream"__id*
+""Š
+d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaÒ Ò(=
+
+%1void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%0java.io.PrintStream**(
+&>> DataAccess: getNumCuponesConseguido2println(Ljava/lang/String;)áŞ
+d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaÔ% Ô(9
+%2java.lang.String"3domain.Usuario#getNombreUsuario()Ljava/lang/String;*
+
+udomain.Usuario2getNombreUsuario()
+Œ
+d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaÔ Ô(;
+userdomain.Usuario"__id*
+""Š
+‡
+d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaÕ Õ($
+cdomain.Cupon"__id*
+""ÉÆ
+d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaÙ
+ Ù(#	
+%3int"%domain.Cupon#getNumCuponconseguido()I*
+
+cdomain.Cupon2getNumCuponconseguido()’
+
+d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaÚ Ú(
+%4java.io.PrintStream"__id*
+""ÇÄ
+d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaÚ Ú(
+
+%5void"java.io.PrintStream#println(I)V*
+
+%4java.io.PrintStream*
+""2
+println(I)"n
+d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaŞ Ş(
+"":
+udomain.UsuarioB
+dataAccess.DataAccess

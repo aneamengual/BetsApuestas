@@ -1,0 +1,4 @@
+test.dataAccess.TestDataAccess#anadirApuesta(Ldomain/Usuario;Ldomain/Pronostico;FLjava/lang/String;Ldomain/Event;I)Ldomain/Apuesta;
+domain.Estadistica#<init>(I)V
+domain.Estadistica#instance-init#
+java.lang.String#equals(Ljava/lang/Object;)Z

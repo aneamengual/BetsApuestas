@@ -1,0 +1,59 @@
+
+etest.dataAccess.TestDataAccess#addPronostico(Ldomain/Question;Ljava/lang/String;F)Ldomain/Pronostico;k
+aC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/dataAccess/TestDataAccess.javaf f(!"7*¶
+5k
+aC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/dataAccess/TestDataAccess.javak k(7Æ
+´
+k
+aC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/dataAccess/TestDataAccess.javak k(7
+pronosdomain.Pronostico"__id*
+
+%2domain.Pronostico*
+1*©
+6k
+aC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/dataAccess/TestDataAccess.javak k(úô
+k
+aC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/dataAccess/TestDataAccess.javak k(
+%2domain.Pronostico"domain.Pronosticoí
+è
+k
+aC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/dataAccess/TestDataAccess.javak k(7
+%3"?domain.Pronostico#<init>(Ldomain/Question;Ljava/lang/String;F)V*
+
+%2domain.Pronostico*
+
+qdomain.Question*
+
+solucionjava.lang.String*
+""*
+5*¿
+7k
+aC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/dataAccess/TestDataAccess.javag g(	ô
+ñ
+k
+aC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/dataAccess/TestDataAccess.javag g(
+%0java.io.PrintStream"__id*
+""éã
+k
+aC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/dataAccess/TestDataAccess.javag g(9
+
+%1void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%0java.io.PrintStream*$"
+ >> DataAccessTest: addPronostico2println(Ljava/lang/String;)õ
+ò
+k
+aC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/dataAccess/TestDataAccess.javah h(
+pronosdomain.Pronostico"__id*
+""*
+6*ˇ
+1k
+aC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/dataAccess/TestDataAccess.javar r("å
+k
+aC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/dataAccess/TestDataAccess.javar r(
+
+pronosdomain.Pronostico:
+qdomain.Question:
+solucionjava.lang.String:
+""B" 
+test.dataAccess.TestDataAccess

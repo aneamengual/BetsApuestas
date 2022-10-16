@@ -1,0 +1,5 @@
+domain.Estadistica#<init>(I)V
+java.util.ArrayList#<init>()V
+java.util.Vector#<init>()V
+java.util.Vector#instance-init#
+java.util.ArrayList#instance-init#

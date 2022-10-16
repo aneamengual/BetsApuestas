@@ -1,0 +1,56 @@
+
+4dataAccess.DataAccess#dadoMegusta(Ldomain/Mensaje;)Id
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaî î("1*ê
+1d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaï ï(’
+
+d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaï ï(
+%0java.io.PrintStream"__id*
+""þû
+d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaï ï(/
+
+%1void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%0java.io.PrintStream*
+>>Guardamos el me gusta2println(Ljava/lang/String;)ãà
+d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javañ' ñ(;
+%2java.lang.Integer"4domain.Mensaje#getMensajeNumber()Ljava/lang/Integer;*
+
+mdomain.Mensaje2getMensajeNumber()Ž
+‹
+d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javañ ñ(=
+mendomain.Mensaje"__id*
+""»¸
+d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaò ò(#	
+%3int"domain.Mensaje#getMegustas()I*
+
+mendomain.Mensaje2getMegustas()ÆÃ
+d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaò ò(&
+
+%4void"domain.Mensaje#setMegustas(I)V*
+
+mendomain.Mensaje*
+""2setMegustas(I)¼¹
+d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaó ó(
+
+%5void"domain.Mensaje#setDado(Z)V*
+
+mendomain.Mensaje*22
+setDado(Z)»¸
+d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.java÷	 ÷(	
+%6int"domain.Mensaje#getMegustas()I*
+
+mendomain.Mensaje2getMegustas()"n
+d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.java÷ ÷(
+"":
+mdomain.MensajeB
+dataAccess.DataAccess

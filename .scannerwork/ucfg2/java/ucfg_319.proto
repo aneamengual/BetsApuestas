@@ -1,0 +1,95 @@
+
+.domain.Pronostico#toString()Ljava/lang/String;^
+TC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Pronostico.javaV V("1*ï
+1^
+TC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Pronostico.javaW	 W(%¬
+©
+^
+TC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Pronostico.javaW( W(5
+%0java.lang.Integer"__id*(*&
+domain.Pronostico"
+numPronosticoÀ
+½
+^
+TC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Pronostico.javaW	 W(5
+%1java.lang.String"__concat*
+Pronostico [numPronostico=*
+
+%0java.lang.Integer°
+­
+^
+TC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Pronostico.javaW	 W(E
+%2java.lang.String"__concat*
+
+%1java.lang.String*
+, question=¥
+¢
+^
+TC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Pronostico.javaWH W(P
+%3domain.Question"__id*#*!
+domain.Pronostico"
+
+question¸
+µ
+^
+TC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Pronostico.javaW	 W(P
+%4java.lang.String"__concat*
+
+%2java.lang.String*
+
+%3domain.Question°
+­
+^
+TC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Pronostico.javaW	 W(`
+%5java.lang.String"__concat*
+
+%4java.lang.String*
+, solucion=¦
+£
+^
+TC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Pronostico.javaWc W(k
+%6java.lang.String"__id*#*!
+domain.Pronostico"
+
+solucion¹
+¶
+^
+TC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Pronostico.javaW	 W(k
+%7java.lang.String"__concat*
+
+%5java.lang.String*
+
+%6java.lang.Stringº
+·
+^
+TC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Pronostico.javaW	 X(
+%8java.lang.String"__concat*
+
+%7java.lang.String*
+, porcentageGanancia=Ç
+Ä
+^
+TC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Pronostico.javaX  X(B
+%9java.lang.String"-java.lang.Float#toString(F)Ljava/lang/String;*"
+java.lang.Float*
+""º
+·
+^
+TC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Pronostico.javaW	 X(B
+%10java.lang.String"__concat*
+
+%8java.lang.String*
+
+%9java.lang.String¨
+¥
+^
+TC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Pronostico.javaW	 X(H
+%11java.lang.String"__concat*
+
+%10java.lang.String*
+]"{
+^
+TC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Pronostico.javaW X(I
+
+%11java.lang.StringB
+domain.Pronostico

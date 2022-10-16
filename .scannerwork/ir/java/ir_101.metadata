@@ -1,0 +1,3 @@
+domain.Question#addPronostico(Ljava/lang/String;F)Ldomain/Pronostico;
+domain.Pronostico#instance-init#
+domain.Pronostico#<init>(Ldomain/Question;Ljava/lang/String;F)V

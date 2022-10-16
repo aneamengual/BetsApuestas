@@ -1,0 +1,6 @@
+SONAR_TOKEN	1fddda6ec18936535d2a71c5e0309a44c667939e
+sonar-scanner.bat \
+  -D"sonar.organization=aneamengual" \
+  -D"sonar.projectKey=Bets2021Ane" \
+  -D"sonar.sources=." \
+  -D"sonar.host.url=https://sonarcloud.io"

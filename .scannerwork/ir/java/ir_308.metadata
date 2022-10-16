@@ -1,0 +1,3 @@
+gui.UsuarioGUI#JButtonVerPronos_actionPerformed(Ljava/awt/event/ActionEvent;)V
+gui.VerPronosticosGUI#instance-init#
+gui.VerPronosticosGUI#<init>()V

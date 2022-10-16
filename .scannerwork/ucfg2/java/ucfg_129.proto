@@ -1,0 +1,63 @@
+
++domain.Mensaje#toString()Ljava/lang/String;[
+QC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Mensaje.javai i("1*‡
+1[
+QC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Mensaje.javaj	 j(ú
+ô
+[
+QC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Mensaje.javaj	 j(
+%0domain.Usuario"__id**
+domain.Mensaje"
+due√±oŸ÷
+[
+QC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Mensaje.javaj	 j(!
+%1java.lang.String"3domain.Usuario#getNombreUsuario()Ljava/lang/String;*
+
+%0domain.Usuario2getNombreUsuario()µ
+≤
+[
+QC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Mensaje.javaj	 j(9
+%2java.lang.String"__concat*
+
+%1java.lang.String*
+                   ö
+ó
+[
+QC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Mensaje.javaj< j(@
+%3java.util.Date"__id**
+domain.Mensaje"
+date¥
+±
+[
+QC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Mensaje.javaj	 j(@
+%4java.lang.String"__concat*
+
+%2java.lang.String*
+
+%3java.util.Date§
+°
+[
+QC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Mensaje.javaj	 j(G
+%5java.lang.String"__concat*
+
+%4java.lang.String*
+\nù
+ö
+[
+QC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Mensaje.javajJ j(O
+%6java.lang.String"__id**
+domain.Mensaje"
+texto∂
+≥
+[
+QC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Mensaje.javaj	 j(O
+%7java.lang.String"__concat*
+
+%5java.lang.String*
+
+%6java.lang.String"w
+[
+QC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Mensaje.javaj j(P
+
+%7java.lang.StringB
+domain.Mensaje

@@ -1,0 +1,42 @@
+
+?test.dataAccess.TestDataAccess#removeApuesta(Ldomain/Apuesta;)Zm
+aC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/dataAccess/TestDataAccess.javaê ê("4*Î
+2m
+aC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/dataAccess/TestDataAccess.javaò ò("w
+m
+aC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/dataAccess/TestDataAccess.javaò ò(
+""*Ù
+4m
+aC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/dataAccess/TestDataAccess.javaë ë(	õ
+ò
+m
+aC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/dataAccess/TestDataAccess.javaë ë(
+%0java.io.PrintStream"__id*
+""áÑ
+m
+aC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/dataAccess/TestDataAccess.javaë ë(0
+
+%1void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%0java.io.PrintStream*
+Quitamos la apuesta uno2println(Ljava/lang/String;)∂≥
+m
+aC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/dataAccess/TestDataAccess.javaí' í(0	
+%2int"domain.Apuesta#getId()I*
+
+adomain.Apuesta2getId()ñ
+ì
+m
+aC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/dataAccess/TestDataAccess.javaí í(2
+apdomain.Apuesta"__id*
+""*
+2
+1*Î
+1m
+aC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/dataAccess/TestDataAccess.javaö
+ ö("w
+m
+aC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/dataAccess/TestDataAccess.javaö ö(
+"":
+adomain.ApuestaB" 
+test.dataAccess.TestDataAccess

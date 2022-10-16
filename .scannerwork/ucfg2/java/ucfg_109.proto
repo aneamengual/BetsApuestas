@@ -1,0 +1,47 @@
+
+Ltest.businessLogic.TestFacadeImplementation#removeUsuario(Ldomain/Usuario;)Zx
+nC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/businessLogic/TestFacadeImplementation.java) )("1*Ì
+1x
+nC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/businessLogic/TestFacadeImplementation.java* *(í
+ê
+x
+nC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/businessLogic/TestFacadeImplementation.java* *($
+%0test.dataAccess.TestDataAccess"__id*B*@-
++test.businessLogic.TestFacadeImplementation"
+dbManagerTestáÞ
+x
+nC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/businessLogic/TestFacadeImplementation.java* *(
+
+%1void"&test.dataAccess.TestDataAccess#open()V*&
+$
+%0test.dataAccess.TestDataAccess2open()í
+ê
+x
+nC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/businessLogic/TestFacadeImplementation.java+ +($
+%2test.dataAccess.TestDataAccess"__id*B*@-
++test.businessLogic.TestFacadeImplementation"
+dbManagerTest­ª
+x
+nC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/businessLogic/TestFacadeImplementation.java+ +(+
+%3boolean"?test.dataAccess.TestDataAccess#removeUsuario(Ldomain/Usuario;)Z*&
+$
+%2test.dataAccess.TestDataAccess*
+
+udomain.Usuario2removeUsuario(Ldomain/Usuario;)í
+ê
+x
+nC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/businessLogic/TestFacadeImplementation.java, ,($
+%4test.dataAccess.TestDataAccess"__id*B*@-
++test.businessLogic.TestFacadeImplementation"
+dbManagerTestãà
+x
+nC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/businessLogic/TestFacadeImplementation.java, ,(
+
+%5void"'test.dataAccess.TestDataAccess#close()V*&
+$
+%4test.dataAccess.TestDataAccess2close()"‚
+x
+nC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/businessLogic/TestFacadeImplementation.java- -(
+"":
+udomain.UsuarioB/-
++test.businessLogic.TestFacadeImplementation

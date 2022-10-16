@@ -1,0 +1,2 @@
+dataAccess.DataAccess#anadirApuesta(Ldomain/Usuario;Ldomain/Pronostico;FLjava/lang/String;Ldomain/Event;I)Ldomain/Apuesta;
+java.lang.String#equals(Ljava/lang/Object;)Z

@@ -1,0 +1,5 @@
+dataAccess.DataAccess#anadirResultado(Ldomain/Question;Ldomain/Pronostico;)Ljava/lang/String;
+java.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;
+exceptions.ResultAlreadyExists#instance-init#
+java.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;
+exceptions.ResultAlreadyExists#<init>(Ljava/lang/String;)V

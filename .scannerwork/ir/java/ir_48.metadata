@@ -1,0 +1,5 @@
+dataAccess.DataAccess#crearUser(Ljava/lang/String;)Ldomain/Usuario;
+domain.Usuario#instance-init#
+java.util.Date#<init>()V
+domain.Usuario#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/util/Date;Ljava/lang/String;Ljava/lang/String;I)V
+java.util.Date#instance-init#

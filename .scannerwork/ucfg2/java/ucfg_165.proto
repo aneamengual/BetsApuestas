@@ -1,0 +1,47 @@
+
+"domain.Event#verificarPreguntas()Z[
+OC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Event.java° °(""5*ñ
+2[
+OC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Event.java¢ ¢(Ñ
+Å
+[
+OC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Event.java¢ ¢(
+qdomain.Question"__id*
+""§
+°
+[
+OC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Event.java¢ ¢(
+qdomain.Question"
+__arrayGet*
+
+%0java.util.Vector*
+""*
+4
+1*«
+3[
+OC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Event.java§ §("e
+[
+OC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Event.java§ §(
+""*∑
+4[
+OC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Event.java£ £(Ã…
+[
+OC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Event.java£ £(
+%1java.lang.String"-domain.Question#getResult()Ljava/lang/String;*
+
+qdomain.Question2getResult()*
+2
+3*±
+5[
+OC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Event.java¢ ¢(…∆
+[
+OC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Event.java¢ ¢(%
+%0java.util.Vector"-domain.Event#getQuestions()Ljava/util/Vector;*
+domain.Event2getQuestions()*
+2*«
+1[
+OC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Event.java¶	 ¶("e
+[
+OC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Event.java¶ ¶(
+""B
+domain.Event

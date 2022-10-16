@@ -1,0 +1,3 @@
+domain.Event#addApuesta(Ldomain/Usuario;Ldomain/Pronostico;F)Ldomain/Apuesta;
+domain.Apuesta#instance-init#
+domain.Apuesta#<init>(Ldomain/Usuario;Ldomain/Pronostico;Ldomain/Event;F)V

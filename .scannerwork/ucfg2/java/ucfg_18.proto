@@ -1,0 +1,66 @@
+
+KdataAccess.DataAccess#existPronostico(Ldomain/Question;Ljava/lang/String;)Zd
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.java   ("1*‰
+1d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaÀ À(í
+è
+d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaÀ À(
+%0java.io.PrintStream"__id*
+""ÿ
+’
+d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaÀ À(G
+%1java.lang.String"__concat*/-
++>> DataAccess: existPronostico=> Question= *
+
+questdomain.Question∏
+µ
+d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaÀ À(W
+%2java.lang.String"__concat*
+
+%1java.lang.String*
+ pronostico= «
+ƒ
+d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaÀ À(b
+%3java.lang.String"__concat*
+
+%2java.lang.String* 
+
+
+pronosticojava.lang.String˚¯
+d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaÀ À(c
+
+%4void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%0java.io.PrintStream*
+
+%3java.lang.String2println(Ljava/lang/String;)ÎË
+d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaÃ& Ã(?
+%5java.lang.Integer"6domain.Question#getQuestionNumber()Ljava/lang/Integer;*
+
+questdomain.Question2getQuestionNumber()ç
+ä
+d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaÃ Ã(A
+qdomain.Question"__id*
+""óî
+d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaÕ Õ(*
+%6boolean"9domain.Question#DoesPronosticoExists(Ljava/lang/String;)Z*
+
+qdomain.Question* 
+
+
+pronosticojava.lang.String2(DoesPronosticoExists(Ljava/lang/String;)"n
+d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaÕ Õ(+
+"":
+questdomain.Question:
+
+pronosticojava.lang.StringB
+dataAccess.DataAccess

@@ -1,0 +1,57 @@
+
+9domain.Question#DoesPronosticoExists(Ljava/lang/String;)Z^
+RC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Question.java® ®($"5*£
+2^
+RC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Question.java¯ ¯(‰
+†
+^
+RC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Question.java¯ ¯(
+pdomain.Pronostico"__id*
+""©
+¦
+^
+RC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Question.java¯ ¯(
+pdomain.Pronostico"
+__arrayGet*
+
+%0java.util.Vector*
+""*
+4
+1*Í
+3^
+RC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Question.java± ±("h
+^
+RC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Question.java± ±(
+""*Â
+4^
+RC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Question.java° °(×Ô
+^
+RC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Question.java° °(
+%1java.lang.String"1domain.Pronostico#getSolucion()Ljava/lang/String;*
+
+pdomain.Pronostico2getSolucion()ú÷
+^
+RC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Question.java° °(,	
+%2int"/java.lang.String#compareTo(Ljava/lang/String;)I*
+
+%1java.lang.String* 
+
+
+pronosticojava.lang.String2compareTo(Ljava/lang/String;)*
+2
+3*Á
+5^
+RC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Question.java¯ ¯(ÖÓ
+^
+RC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Question.java¯ ¯()
+%0java.util.Vector"2domain.Question#getPronosticos()Ljava/util/Vector;*
+domain.Question2getPronosticos()*
+2*Í
+1^
+RC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Question.java³	 ³("h
+^
+RC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/domain/Question.java³ ³(
+"":
+
+pronosticojava.lang.StringB
+domain.Question

@@ -1,0 +1,59 @@
+
+rtest.businessLogic.TestFacadeImplementation#addPronostico(Ldomain/Question;Ljava/lang/String;F)Ldomain/Pronostico;x
+nC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/businessLogic/TestFacadeImplementation.java= =(!"1*„
+1x
+nC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/businessLogic/TestFacadeImplementation.java> >(í
+ê
+x
+nC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/businessLogic/TestFacadeImplementation.java> >($
+%0test.dataAccess.TestDataAccess"__id*B*@-
++test.businessLogic.TestFacadeImplementation"
+dbManagerTestáÞ
+x
+nC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/businessLogic/TestFacadeImplementation.java> >(
+
+%1void"&test.dataAccess.TestDataAccess#open()V*&
+$
+%0test.dataAccess.TestDataAccess2open()í
+ê
+x
+nC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/businessLogic/TestFacadeImplementation.java? ?($
+%2test.dataAccess.TestDataAccess"__id*B*@-
++test.businessLogic.TestFacadeImplementation"
+dbManagerTestš—
+x
+nC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/businessLogic/TestFacadeImplementation.java? ?(E
+%3domain.Pronostico"etest.dataAccess.TestDataAccess#addPronostico(Ldomain/Question;Ljava/lang/String;F)Ldomain/Pronostico;*&
+$
+%2test.dataAccess.TestDataAccess*
+
+qdomain.Question*
+
+solucionjava.lang.String*
+""23addPronostico(Ldomain/Question;Ljava/lang/String;F)¶
+³
+x
+nC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/businessLogic/TestFacadeImplementation.java? ?(F
+pdomain.Pronostico"__id*
+
+%3domain.Pronosticoí
+ê
+x
+nC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/businessLogic/TestFacadeImplementation.java@ @($
+%4test.dataAccess.TestDataAccess"__id*B*@-
++test.businessLogic.TestFacadeImplementation"
+dbManagerTestãà
+x
+nC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/businessLogic/TestFacadeImplementation.java@ @(
+
+%5void"'test.dataAccess.TestDataAccess#close()V*&
+$
+%4test.dataAccess.TestDataAccess2close()"”
+x
+nC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/businessLogic/TestFacadeImplementation.javaA A(
+
+pdomain.Pronostico:
+qdomain.Question:
+solucionjava.lang.String:
+""B/-
++test.businessLogic.TestFacadeImplementation

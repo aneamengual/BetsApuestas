@@ -1,0 +1,54 @@
+
+Ytest.businessLogic.TestFacadeImplementation#crearUser(Ljava/lang/String;)Ldomain/Usuario;x
+nC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/businessLogic/TestFacadeImplementation.java ("1*¢
+1x
+nC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/businessLogic/TestFacadeImplementation.java (í
+ê
+x
+nC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/businessLogic/TestFacadeImplementation.java ($
+%0test.dataAccess.TestDataAccess"__id*B*@-
++test.businessLogic.TestFacadeImplementation"
+dbManagerTestáÞ
+x
+nC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/businessLogic/TestFacadeImplementation.java (
+
+%1void"&test.dataAccess.TestDataAccess#open()V*&
+$
+%0test.dataAccess.TestDataAccess2open()í
+ê
+x
+nC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/businessLogic/TestFacadeImplementation.java ($
+%2test.dataAccess.TestDataAccess"__id*B*@-
++test.businessLogic.TestFacadeImplementation"
+dbManagerTestÁ¾
+x
+nC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/businessLogic/TestFacadeImplementation.java ((
+%3domain.Usuario"Ltest.dataAccess.TestDataAccess#crearUser(Ljava/lang/String;)Ldomain/Usuario;*&
+$
+%2test.dataAccess.TestDataAccess*
+
+sjava.lang.String2crearUser(Ljava/lang/String;)°
+­
+x
+nC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/businessLogic/TestFacadeImplementation.java ()
+adomain.Usuario"__id*
+
+%3domain.Usuarioí
+ê
+x
+nC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/businessLogic/TestFacadeImplementation.java ($
+%4test.dataAccess.TestDataAccess"__id*B*@-
++test.businessLogic.TestFacadeImplementation"
+dbManagerTestãà
+x
+nC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/businessLogic/TestFacadeImplementation.java (
+
+%5void"'test.dataAccess.TestDataAccess#close()V*&
+$
+%4test.dataAccess.TestDataAccess2close()"‘
+x
+nC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/businessLogic/TestFacadeImplementation.java (
+
+adomain.Usuario:
+sjava.lang.StringB/-
++test.businessLogic.TestFacadeImplementation

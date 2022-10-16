@@ -1,0 +1,3 @@
+dataAccess.DataAccess#crearEstadistica(I)Ldomain/Estadistica;
+domain.Estadistica#<init>(I)V
+domain.Estadistica#instance-init#

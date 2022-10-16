@@ -1,0 +1,7 @@
+organization=aneamengual
+projectKey=Bets2021Ane
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.33400
+dashboardUrl=https://sonarcloud.io/dashboard?id=Bets2021Ane
+ceTaskId=AYPV4HbFHfLtOqrk6mXV
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYPV4HbFHfLtOqrk6mXV

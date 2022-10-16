@@ -1,0 +1,11 @@
+gui.ViewCuponGUI#ViewCupon(Ldomain/Usuario;)V
+javax.swing.border.EmptyBorder#<init>(IIII)V
+javax.swing.JLabel#<init>(Ljava/lang/String;)V
+java.lang.String#valueOf(I)Ljava/lang/String;
+javax.swing.JPanel#<init>()V
+javax.swing.JLabel#instance-init#
+java.awt.Font#<init>(Ljava/lang/String;II)V
+javax.swing.border.EmptyBorder#instance-init#
+java.awt.Font#instance-init#
+javax.swing.JPanel#instance-init#
+java.lang.String#valueOf(F)Ljava/lang/String;

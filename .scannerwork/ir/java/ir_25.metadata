@@ -1,0 +1,4 @@
+dataAccess.DataAccess#getUsuariosGanadores(Ldomain/Pronostico;I)Ljava/util/Vector;
+java.util.Vector#<init>()V
+java.util.Vector#instance-init#
+dataAccess.DataAccess#extractedSetGanancias(Ldomain/Pronostico;Ljava/util/Vector;Ljava/util/List;Ldomain/Estadistica;)V

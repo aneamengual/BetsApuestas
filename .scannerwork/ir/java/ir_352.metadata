@@ -1,0 +1,3 @@
+domain.Usuario#addCupon()Ldomain/Cupon;
+domain.Cupon#<init>(Ldomain/Usuario;)V
+domain.Cupon#instance-init#

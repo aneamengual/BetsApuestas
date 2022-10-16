@@ -1,0 +1,9 @@
+gui.PerfilGUI#Perfil(Ldomain/Usuario;)V
+javax.swing.border.EmptyBorder#<init>(IIII)V
+java.lang.String#valueOf(I)Ljava/lang/String;
+javax.swing.JPanel#<init>()V
+java.awt.Font#<init>(Ljava/lang/String;II)V
+javax.swing.border.EmptyBorder#instance-init#
+java.awt.Font#instance-init#
+javax.swing.JPanel#instance-init#
+java.lang.String#valueOf(F)Ljava/lang/String;

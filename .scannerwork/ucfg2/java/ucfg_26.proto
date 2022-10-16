@@ -1,0 +1,69 @@
+
+fdataAccess.DataAccess#extractedGananciasUsuario(Ldomain/Pronostico;FLdomain/Apuesta;Ldomain/Usuario;)Fd
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaÆ Æ('"1*Í
+1d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaÇ Ç(¹¶
+d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaÇ Ç(
+%0float"domain.Apuesta#getApuesta()F*
+
+adomain.Apuesta2getApuesta()¹¶
+d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaÇ Ç(*
+%1float"domain.Apuesta#getApuesta()F*
+
+adomain.Apuesta2getApuesta()Ú×
+d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaÇ+ Ç(I
+%2float"*domain.Pronostico#getPorcentageGanancia()F*
+
+pronosdomain.Pronostico2getPorcentageGanancia()¿¼
+d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaÉ É(
+%3float"domain.Usuario#getMiMonedero()F*
+
+udomain.Usuario2getMiMonedero()ÈÅ
+d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaÊ Ê(
+
+%4void" domain.Usuario#setMiMonedero(F)V*
+
+udomain.Usuario*
+""2setMiMonedero(F)ÇÄ
+d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaË Ë(,	
+%5int"$domain.Usuario#getApuestasganadas()I*
+
+udomain.Usuario2getApuestasganadas()ÒÏ
+d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaË Ë(/
+
+%6void"%domain.Usuario#setApuestasganadas(I)V*
+
+udomain.Usuario*
+""2setApuestasganadas(I)ÇÄ
+d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaÌ# Ì(9	
+%7int"$domain.Usuario#getApuestasganadas()I*
+
+udomain.Usuario2getApuestasganadas()ÉÆ
+d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaÌ? Ì(V	
+%8int"%domain.Usuario#getCuentaDeApuestas()I*
+
+udomain.Usuario2getCuentaDeApuestas()Ú×
+d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaÌ Ì(X
+
+%9void")domain.Usuario#setPorcentajeGanancias(F)V*
+
+udomain.Usuario*
+""2setPorcentajeGanancias(F)"n
+d
+XC:/Users/Propietario/git/repositoryFinal/Bets21/src/main/java/dataAccess/DataAccess.javaÍ Í(
+"":
+pronosdomain.Pronostico:
+"":
+adomain.Apuesta:
+udomain.UsuarioB
+dataAccess.DataAccess

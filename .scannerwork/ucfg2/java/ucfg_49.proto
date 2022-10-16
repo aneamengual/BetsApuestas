@@ -1,0 +1,303 @@
+
+0pruebas.UsuaruioMayorApuestaMockIntTest#test4()Vv
+jC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/pruebas/UsuaruioMayorApuestaMockIntTest.javaâ â("20*ù
+13v
+jC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/pruebas/UsuaruioMayorApuestaMockIntTest.javaö
+ ö(÷
+”
+v
+jC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/pruebas/UsuaruioMayorApuestaMockIntTest.javaö
+ ö(
+%14businessLogic.BLFacade"__id*4*2)
+'pruebas.UsuaruioMayorApuestaMockIntTest"
+sutÀ
+»
+v
+jC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/pruebas/UsuaruioMayorApuestaMockIntTest.javaö ö(
+%15domain.Event"__id*3*1)
+'pruebas.UsuaruioMayorApuestaMockIntTest"
+evÒÓ
+v
+jC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/pruebas/UsuaruioMayorApuestaMockIntTest.javaö
+ ö(3
+%16domain.Question"YbusinessLogic.BLFacade#createQuestion(Ldomain/Event;Ljava/lang/String;F)Ldomain/Question;*
+
+%14businessLogic.BLFacade*
+
+%15domain.Event*
+quien ganar?*221createQuestion(Ldomain/Event;Ljava/lang/String;F)*
+11*¬
+15v
+jC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/pruebas/UsuaruioMayorApuestaMockIntTest.javaî î(8Ω
+∫
+v
+jC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/pruebas/UsuaruioMayorApuestaMockIntTest.javaî î(81)
+'pruebas.UsuaruioMayorApuestaMockIntTest"
+ev"__id*
+
+%13*
+13*≥
+4v
+jC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/pruebas/UsuaruioMayorApuestaMockIntTest.java¶ ¶(:Ã
+…
+v
+jC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/pruebas/UsuaruioMayorApuestaMockIntTest.java¶ ¶(:0)
+'pruebas.UsuaruioMayorApuestaMockIntTest"
+b"__id*
+
+%29domain.Apuesta÷
+”
+v
+jC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/pruebas/UsuaruioMayorApuestaMockIntTest.java™ ™(
+%30businessLogic.BLFacade"__id*4*2)
+'pruebas.UsuaruioMayorApuestaMockIntTest"
+sutàÖ
+v
+jC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/pruebas/UsuaruioMayorApuestaMockIntTest.java™ ™()
+%31domain.Usuario"<businessLogic.BLFacade#usuarioMayorApuesta()Ldomain/Usuario;*
+
+%30businessLogic.BLFacade2usuarioMayorApuesta()*
+0*∑
+5v
+jC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/pruebas/UsuaruioMayorApuestaMockIntTest.java• •(8Ã
+…
+v
+jC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/pruebas/UsuaruioMayorApuestaMockIntTest.java• •(80)
+'pruebas.UsuaruioMayorApuestaMockIntTest"
+a"__id*
+
+%25domain.Apuesta÷
+”
+v
+jC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/pruebas/UsuaruioMayorApuestaMockIntTest.java¶ ¶(
+%26businessLogic.BLFacade"__id*4*2)
+'pruebas.UsuaruioMayorApuestaMockIntTest"
+sutœ
+Ã
+v
+jC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/pruebas/UsuaruioMayorApuestaMockIntTest.java¶ ¶(
+%27domain.Pronostico"__id*2*0)
+'pruebas.UsuaruioMayorApuestaMockIntTest"
+pÀ
+»
+v
+jC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/pruebas/UsuaruioMayorApuestaMockIntTest.java¶1 ¶(3
+%28domain.Event"__id*3*1)
+'pruebas.UsuaruioMayorApuestaMockIntTest"
+evÏÈ
+v
+jC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/pruebas/UsuaruioMayorApuestaMockIntTest.java¶ ¶(:
+%29domain.Apuesta"{businessLogic.BLFacade#anadirApuesta(Ldomain/Usuario;Ldomain/Pronostico;FLjava/lang/String;Ldomain/Event;I)Ldomain/Apuesta;*
+
+%26businessLogic.BLFacade*
+
+ubdomain.Usuario*
+
+%27domain.Pronostico*2*
+
+efectivo*
+
+%28domain.Event*2‰2TanadirApuesta(Ldomain/Usuario;Ldomain/Pronostico;FLjava/lang/String;Ldomain/Event;I)*
+4*¯
+17v
+jC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/pruebas/UsuaruioMayorApuestaMockIntTest.javaî6 î(7Û
+v
+jC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/pruebas/UsuaruioMayorApuestaMockIntTest.javaî
+ î(8
+%13"_businessLogic.BLFacade#anadirEvent(Ljava/lang/String;Ljava/util/Date;LSeleccion;)Ldomain/Event;*
+
+%10businessLogic.BLFacade*
+Madrid-Eibar*
+
+%11java.util.Date*
+""2:anadirEvent(Ljava/lang/String;Ljava/util/Date;LSeleccion;)*
+15*Á	
+6v
+jC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/pruebas/UsuaruioMayorApuestaMockIntTest.java• •(÷
+”
+v
+jC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/pruebas/UsuaruioMayorApuestaMockIntTest.java• •(
+%22businessLogic.BLFacade"__id*4*2)
+'pruebas.UsuaruioMayorApuestaMockIntTest"
+sutœ
+Ã
+v
+jC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/pruebas/UsuaruioMayorApuestaMockIntTest.java• •(
+%23domain.Pronostico"__id*2*0)
+'pruebas.UsuaruioMayorApuestaMockIntTest"
+pÀ
+»
+v
+jC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/pruebas/UsuaruioMayorApuestaMockIntTest.java•/ •(1
+%24domain.Event"__id*3*1)
+'pruebas.UsuaruioMayorApuestaMockIntTest"
+evÎË
+v
+jC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/pruebas/UsuaruioMayorApuestaMockIntTest.java• •(8
+%25domain.Apuesta"{businessLogic.BLFacade#anadirApuesta(Ldomain/Usuario;Ldomain/Pronostico;FLjava/lang/String;Ldomain/Event;I)Ldomain/Apuesta;*
+
+%22businessLogic.BLFacade*
+
+udomain.Usuario*
+
+%23domain.Pronostico*2*
+
+efectivo*
+
+%24domain.Event*2‰2TanadirApuesta(Ldomain/Usuario;Ldomain/Pronostico;FLjava/lang/String;Ldomain/Event;I)*
+5*∏
+18v
+jC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/pruebas/UsuaruioMayorApuestaMockIntTest.javaî
+ î(÷
+”
+v
+jC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/pruebas/UsuaruioMayorApuestaMockIntTest.javaî
+ î(
+%10businessLogic.BLFacade"__id*4*2)
+'pruebas.UsuaruioMayorApuestaMockIntTest"
+sut¢ü
+v
+jC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/pruebas/UsuaruioMayorApuestaMockIntTest.javaî. î(2
+%11java.util.Date"java.util.Dateµ
+≤
+v
+jC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/pruebas/UsuaruioMayorApuestaMockIntTest.javaî* î(4
+%12"java.util.Date#<init>()V*
+
+%11java.util.Date*
+17*“
+7v
+jC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/pruebas/UsuaruioMayorApuestaMockIntTest.java† †(7œ
+Ã
+v
+jC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/pruebas/UsuaruioMayorApuestaMockIntTest.java† †(70)
+'pruebas.UsuaruioMayorApuestaMockIntTest"
+p"__id*
+
+%20domain.Pronostico*
+6*©
+9v
+jC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/pruebas/UsuaruioMayorApuestaMockIntTest.java†
+ †(÷
+”
+v
+jC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/pruebas/UsuaruioMayorApuestaMockIntTest.java†
+ †(
+%18businessLogic.BLFacade"__id*4*2)
+'pruebas.UsuaruioMayorApuestaMockIntTest"
+sutÕ
+ 
+v
+jC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/pruebas/UsuaruioMayorApuestaMockIntTest.java† †( 
+%19domain.Question"__id*2*0)
+'pruebas.UsuaruioMayorApuestaMockIntTest"
+q˝˙
+v
+jC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/pruebas/UsuaruioMayorApuestaMockIntTest.java†
+ †(7
+%20domain.Pronostico"`businessLogic.BLFacade#anadirPronostico(Ldomain/Question;Ljava/lang/String;F)Ldomain/Pronostico;*
+
+%18businessLogic.BLFacade*
+
+%19domain.Question*	
+Eibar*
+""26anadirPronostico(Ldomain/Question;Ljava/lang/String;F)*
+7*§
+20v
+jC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/pruebas/UsuaruioMayorApuestaMockIntTest.javaã ã(’
+“
+v
+jC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/pruebas/UsuaruioMayorApuestaMockIntTest.javaã ã(
+%0businessLogic.BLFacade"__id*4*2)
+'pruebas.UsuaruioMayorApuestaMockIntTest"
+sut†ù
+v
+jC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/pruebas/UsuaruioMayorApuestaMockIntTest.javaã ã(%
+%1domain.Usuario"DbusinessLogic.BLFacade#crearUser(Ljava/lang/String;)Ldomain/Usuario;*
+
+%0businessLogic.BLFacade*
+alex2crearUser(Ljava/lang/String;)Æ
+´
+v
+jC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/pruebas/UsuaruioMayorApuestaMockIntTest.javaã ã(&
+udomain.Usuario"__id*
+
+%1domain.Usuario’
+“
+v
+jC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/pruebas/UsuaruioMayorApuestaMockIntTest.javaå å(
+%2businessLogic.BLFacade"__id*4*2)
+'pruebas.UsuaruioMayorApuestaMockIntTest"
+sutúô
+v
+jC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/pruebas/UsuaruioMayorApuestaMockIntTest.javaå å(%
+
+%3void"<businessLogic.BLFacade#bloquearUsuario(Ljava/lang/String;I)V*
+
+%2businessLogic.BLFacade*
+alex*2Ê2$bloquearUsuario(Ljava/lang/String;I)’
+“
+v
+jC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/pruebas/UsuaruioMayorApuestaMockIntTest.javaç ç(
+%4businessLogic.BLFacade"__id*4*2)
+'pruebas.UsuaruioMayorApuestaMockIntTest"
+sut¢ü
+v
+jC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/pruebas/UsuaruioMayorApuestaMockIntTest.javaç ç('
+%5domain.Usuario"DbusinessLogic.BLFacade#crearUser(Ljava/lang/String;)Ldomain/Usuario;*
+
+%4businessLogic.BLFacade*
+
+maider2crearUser(Ljava/lang/String;)Ø
+¨
+v
+jC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/pruebas/UsuaruioMayorApuestaMockIntTest.javaç ç((
+ubdomain.Usuario"__id*
+
+%5domain.Usuario’
+“
+v
+jC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/pruebas/UsuaruioMayorApuestaMockIntTest.javaé é(
+%6businessLogic.BLFacade"__id*4*2)
+'pruebas.UsuaruioMayorApuestaMockIntTest"
+sutûõ
+v
+jC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/pruebas/UsuaruioMayorApuestaMockIntTest.javaé é('
+
+%7void"<businessLogic.BLFacade#bloquearUsuario(Ljava/lang/String;I)V*
+
+%6businessLogic.BLFacade*
+
+maider*2Ê2$bloquearUsuario(Ljava/lang/String;I)’
+“
+v
+jC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/pruebas/UsuaruioMayorApuestaMockIntTest.javaê ê(
+
+%8businessLogic.BLFacade"__id*4*2)
+'pruebas.UsuaruioMayorApuestaMockIntTest"
+sut¸˘
+v
+jC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/pruebas/UsuaruioMayorApuestaMockIntTest.javaê ê(;
+%9"ibusinessLogic.BLFacade#anadirSeleccion(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)LSeleccion;*
+
+%8businessLogic.BLFacade*
+
+footboll*
+	masculino*
+liga2GanadirSeleccion(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)*
+18*ï
+0 "ç
+v
+jC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/pruebas/UsuaruioMayorApuestaMockIntTest.java≤ ≤(
+implicit return*—
+11v
+jC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/pruebas/UsuaruioMayorApuestaMockIntTest.javaö ö(3Õ
+ 
+v
+jC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/pruebas/UsuaruioMayorApuestaMockIntTest.javaö ö(30)
+'pruebas.UsuaruioMayorApuestaMockIntTest"
+q"__id*
+
+%16domain.Question*
+9B+)
+'pruebas.UsuaruioMayorApuestaMockIntTest

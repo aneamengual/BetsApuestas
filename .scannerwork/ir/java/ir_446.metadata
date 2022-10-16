@@ -1,0 +1,6 @@
+gui.ForoGUI#boton_enviar(Ljava/awt/event/ActionEvent;)V
+java.lang.String#isBlank()Z
+java.util.Calendar#getInstance()Ljava/util/Calendar;
+gui.ForoGUI#enviarChat(LMensaje;)V
+gui.MainGUI#getBusinessLogic()LBLFacade;
+java.util.Calendar#getTime()Ljava/util/Date;

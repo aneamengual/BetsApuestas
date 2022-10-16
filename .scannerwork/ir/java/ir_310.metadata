@@ -1,0 +1,3 @@
+gui.UsuarioGUI#jButtonViewCupon_actionPerformed(Ljava/awt/event/ActionEvent;)V
+gui.ViewCuponGUI#<init>(Ldomain/Usuario;)V
+gui.ViewCuponGUI#instance-init#

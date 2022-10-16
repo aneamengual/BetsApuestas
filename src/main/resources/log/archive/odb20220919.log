@@ -1,0 +1,44 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-09-19 15:02:19 #1 store] 
+Database 'C:\Users\Propietario\git\repositoryFinal\Bets21\src\main\resources\bets.temp' has been recovered (tr. 52-96)
+
+[2022-09-19 15:02:19 #2 store] 
+Database 'C:\Users\Propietario\git\repositoryFinal\Bets21\src\main\resources\bets.temp' is opened by 1712@pc-1631545154
+
+[2022-09-19 15:02:19 #3 store] 
+Configuration path: ?
+
+[2022-09-19 15:02:20 #4 type] 
+Type domain.Subdito is not enhanced.
+
+[2022-09-19 15:02:20 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2022-09-19 15:02:20 #6 type] 
+Type domain.Usuario is not enhanced.
+
+[2022-09-19 15:02:20 #7 type] 
+Type domain.Cupon is not enhanced.
+
+[2022-09-19 15:02:20 #8 type] 
+Type domain.Apuesta is not enhanced.
+
+[2022-09-19 15:02:20 #9 type] 
+Type domain.Event is not enhanced.
+
+[2022-09-19 15:02:20 #10 type] 
+Type domain.Pronostico is not enhanced.
+
+[2022-09-19 15:02:20 #11 type] 
+Type domain.Seleccion is not enhanced.
+
+[2022-09-19 15:02:20 #12 type] 
+Type domain.Question is not enhanced.
+
+[2022-09-19 15:02:20 #13 type] 
+Type domain.Estadistica is not enhanced.
+
+[2022-09-19 15:03:37 #14 type] 
+Type domain.Mensaje is not enhanced.
+

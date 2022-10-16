@@ -1,0 +1,47 @@
+
+Rtest.businessLogic.TestFacadeImplementation#removePronostico(Ldomain/Pronostico;)Zx
+nC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/businessLogic/TestFacadeImplementation.java" "(!"1*Û
+1x
+nC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/businessLogic/TestFacadeImplementation.java# #(í
+ê
+x
+nC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/businessLogic/TestFacadeImplementation.java# #($
+%0test.dataAccess.TestDataAccess"__id*B*@-
++test.businessLogic.TestFacadeImplementation"
+dbManagerTestáÞ
+x
+nC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/businessLogic/TestFacadeImplementation.java# #(
+
+%1void"&test.dataAccess.TestDataAccess#open()V*&
+$
+%0test.dataAccess.TestDataAccess2open()í
+ê
+x
+nC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/businessLogic/TestFacadeImplementation.java$ $($
+%2test.dataAccess.TestDataAccess"__id*B*@-
++test.businessLogic.TestFacadeImplementation"
+dbManagerTest¼¹
+x
+nC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/businessLogic/TestFacadeImplementation.java$ $(.
+%3boolean"Etest.dataAccess.TestDataAccess#removePronostico(Ldomain/Pronostico;)Z*&
+$
+%2test.dataAccess.TestDataAccess*
+
+pdomain.Pronostico2%removePronostico(Ldomain/Pronostico;)í
+ê
+x
+nC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/businessLogic/TestFacadeImplementation.java% %($
+%4test.dataAccess.TestDataAccess"__id*B*@-
++test.businessLogic.TestFacadeImplementation"
+dbManagerTestãà
+x
+nC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/businessLogic/TestFacadeImplementation.java% %(
+
+%5void"'test.dataAccess.TestDataAccess#close()V*&
+$
+%4test.dataAccess.TestDataAccess2close()"‚
+x
+nC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/businessLogic/TestFacadeImplementation.java& &(
+"":
+pdomain.PronosticoB/-
++test.businessLogic.TestFacadeImplementation

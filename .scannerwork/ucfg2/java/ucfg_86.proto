@@ -1,0 +1,42 @@
+
+?test.dataAccess.TestDataAccess#removeUsuario(Ldomain/Usuario;)Zm
+aC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/dataAccess/TestDataAccess.javaù ù("4*Î
+2m
+aC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/dataAccess/TestDataAccess.java• •("w
+m
+aC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/dataAccess/TestDataAccess.java• •(
+""*®
+4m
+aC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/dataAccess/TestDataAccess.javaû û(	õ
+ò
+m
+aC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/dataAccess/TestDataAccess.javaû û(
+%0java.io.PrintStream"__id*
+""áÑ
+m
+aC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/dataAccess/TestDataAccess.javaû û(0
+
+%1void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%0java.io.PrintStream*
+Quitamos la apuesta uno2println(Ljava/lang/String;)ÍÁ
+m
+aC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/dataAccess/TestDataAccess.javaü' ü(;
+%2java.lang.String"3domain.Usuario#getNombreUsuario()Ljava/lang/String;*
+
+adomain.Usuario2getNombreUsuario()ñ
+ì
+m
+aC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/dataAccess/TestDataAccess.javaü ü(=
+apdomain.Usuario"__id*
+""*
+2
+1*Î
+1m
+aC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/dataAccess/TestDataAccess.javaß
+ ß("w
+m
+aC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/dataAccess/TestDataAccess.javaß ß(
+"":
+adomain.UsuarioB" 
+test.dataAccess.TestDataAccess

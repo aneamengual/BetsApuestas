@@ -1,0 +1,60 @@
+
+^test.dataAccess.TestDataAccess#addQuestion(Ljava/lang/String;FLdomain/Event;)Ldomain/Question;m
+aC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/dataAccess/TestDataAccess.java¤ ¤("7*¡
+5m
+aC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/dataAccess/TestDataAccess.java© ©(0§
+¤
+m
+aC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/dataAccess/TestDataAccess.java© ©(0
+qdomain.Question"__id*
+
+%2domain.Question*
+1*¢
+6m
+aC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/dataAccess/TestDataAccess.java© ©(š—
+m
+aC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/dataAccess/TestDataAccess.java© ©(
+%2domain.Question"domain.Question‹
+ˆ
+m
+aC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/dataAccess/TestDataAccess.java©
+ ©(0
+%3":domain.Question#<init>(Ljava/lang/String;FLdomain/Event;)V*
+
+%2domain.Question*
+
+queryjava.lang.String*
+""*
+
+eventdomain.Event*
+5*¿
+7m
+aC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/dataAccess/TestDataAccess.java¥ ¥(	›
+˜
+m
+aC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/dataAccess/TestDataAccess.java¥ ¥(
+%0java.io.PrintStream"__id*
+""Ž‹
+m
+aC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/dataAccess/TestDataAccess.java¥ ¥(7
+
+%1void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%0java.io.PrintStream*" 
+>> DataAccessTest: addQuestion2println(Ljava/lang/String;)–
+“
+m
+aC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/dataAccess/TestDataAccess.java¦ ¦(
+qdomain.Question"__id*
+""*
+6*ü
+1m
+aC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/dataAccess/TestDataAccess.java° °("‡
+m
+aC:/Users/Propietario/git/repositoryFinal/Bets21/src/test/java/test/dataAccess/TestDataAccess.java° °(
+
+qdomain.Question:
+queryjava.lang.String:
+"":
+eventdomain.EventB" 
+test.dataAccess.TestDataAccess

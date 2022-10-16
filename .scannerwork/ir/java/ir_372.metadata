@@ -1,0 +1,3 @@
+gui.TrabajadoresGUI#jButtonCerrarApuesta_actionPerformed(Ljava/awt/event/ActionEvent;)V
+gui.CerrarApuestaGUI#<init>()V
+gui.CerrarApuestaGUI#instance-init#

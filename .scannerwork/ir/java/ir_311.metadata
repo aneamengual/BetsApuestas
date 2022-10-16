@@ -1,0 +1,3 @@
+gui.UsuarioGUI#jButtonPerfil_actionPerformed(Ljava/awt/event/ActionEvent;)V
+gui.PerfilGUI#instance-init#
+gui.PerfilGUI#<init>(Ldomain/Usuario;)V

@@ -1,0 +1,2 @@
+dataAccess.DataAccess#extractedSetGanancias(Ldomain/Pronostico;Ljava/util/Vector;Ljava/util/List;Ldomain/Estadistica;)V
+dataAccess.DataAccess#extractedGetUsuariosGanadores(Ldomain/Pronostico;Ljava/util/Vector;Ljava/util/List;Ldomain/Estadistica;)F
