@@ -11,7 +11,7 @@ import java.awt.event.ActionListener;
 import java.util.ResourceBundle;
 import java.util.Vector;
 import java.awt.event.ActionEvent;
-
+//bb
 public class AdminGUI extends JFrame {
 	
 	private static final int CIEN = 100;
