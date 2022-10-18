@@ -16,7 +16,7 @@ import domain.Usuario;
 import exceptions.WrongUserOrPassword;
 import test.dataAccess.TestDataAccess;
 
-public class ComprobarDAWTest {
+public class comprobarDAWTest {
 
 	static DataAccess sut = new DataAccess();
 	

@@ -21,7 +21,7 @@ import exceptions.WrongUserOrPassword;
 
 //@RunWith(MockitoJUnitRunner.class)
 
-public class ComprobarMockIntTest {
+public class comprobarMockIntTest {
 
 	DataAccess dataAccess= Mockito.mock(DataAccess.class);
 	
