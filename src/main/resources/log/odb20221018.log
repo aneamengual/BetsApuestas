@@ -86,3 +86,91 @@ Type domain.Estadistica is not enhanced.
 [2022-10-18 16:01:30 #14 type] 
 Type domain.Mensaje is not enhanced.
 
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-10-18 16:03:52 #1 store] 
+Database 'C:\Users\Propietario\git\BetsApuestas\src\main\resources\bets.temp' has been recovered (tr. 1010-1123)
+
+[2022-10-18 16:03:52 #2 store] 
+Database 'C:\Users\Propietario\git\BetsApuestas\src\main\resources\bets.temp' is opened by 8848@pc-1631545154
+
+[2022-10-18 16:03:52 #3 store] 
+Configuration path: ?
+
+[2022-10-18 16:03:52 #4 type] 
+Type domain.Subdito is not enhanced.
+
+[2022-10-18 16:03:52 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2022-10-18 16:03:52 #6 type] 
+Type domain.Usuario is not enhanced.
+
+[2022-10-18 16:03:52 #7 type] 
+Type domain.Cupon is not enhanced.
+
+[2022-10-18 16:03:52 #8 type] 
+Type domain.Apuesta is not enhanced.
+
+[2022-10-18 16:03:52 #9 type] 
+Type domain.Event is not enhanced.
+
+[2022-10-18 16:03:52 #10 type] 
+Type domain.Pronostico is not enhanced.
+
+[2022-10-18 16:03:52 #11 type] 
+Type domain.Seleccion is not enhanced.
+
+[2022-10-18 16:03:52 #12 type] 
+Type domain.Question is not enhanced.
+
+[2022-10-18 16:03:52 #13 type] 
+Type domain.Estadistica is not enhanced.
+
+[2022-10-18 16:03:52 #14 type] 
+Type domain.Mensaje is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-10-18 16:07:42 #1 store] 
+Database 'C:\Users\Propietario\git\BetsApuestas\src\main\resources\bets.temp' has been recovered (tr. 1124-1235)
+
+[2022-10-18 16:07:43 #2 store] 
+Database 'C:\Users\Propietario\git\BetsApuestas\src\main\resources\bets.temp' is opened by 10612@pc-1631545154
+
+[2022-10-18 16:07:43 #3 store] 
+Configuration path: ?
+
+[2022-10-18 16:07:43 #4 type] 
+Type domain.Subdito is not enhanced.
+
+[2022-10-18 16:07:43 #5 type] 
+Type domain.Admin is not enhanced.
+
+[2022-10-18 16:07:43 #6 type] 
+Type domain.Usuario is not enhanced.
+
+[2022-10-18 16:07:43 #7 type] 
+Type domain.Cupon is not enhanced.
+
+[2022-10-18 16:07:43 #8 type] 
+Type domain.Apuesta is not enhanced.
+
+[2022-10-18 16:07:43 #9 type] 
+Type domain.Event is not enhanced.
+
+[2022-10-18 16:07:43 #10 type] 
+Type domain.Pronostico is not enhanced.
+
+[2022-10-18 16:07:43 #11 type] 
+Type domain.Seleccion is not enhanced.
+
+[2022-10-18 16:07:43 #12 type] 
+Type domain.Question is not enhanced.
+
+[2022-10-18 16:07:43 #13 type] 
+Type domain.Estadistica is not enhanced.
+
+[2022-10-18 16:07:43 #14 type] 
+Type domain.Mensaje is not enhanced.
+
