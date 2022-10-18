@@ -5,6 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.ResourceBundle;
+import java.util.Vector;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -315,6 +316,56 @@ public class TestDataAccess {
 				return true;
 			} else 
 			return false;
+		}
+		
+		public Vector<Usuario> getUsuariosGanadores(Pronostico pronos, int year) {	
+			db.getTransaction().begin();	
+			Vector<Usuario> ganadores = new Vector<Usuario>();	
+			TypedQuery<Apuesta> query = db.createQuery("SELECT a FROM Apuesta a WHERE a.respuesta=?1",Apuesta.class);   
+			query.setParameter(1, pronos);
+			List<Apuesta> apuestas = query.getResultList();	
+			TypedQuery<Estadistica> queryest = db.createQuery("SELECT e FROM Estadistica e WHERE e.year=?1",Estadistica.class);
+			queryest.setParameter(1, year);
+			List<Estadistica> estadistica=queryest.getResultList();
+			Estadistica est= estadistica.get(0);		
+			if(!apuestas.isEmpty()) {
+				extractedSetGanancias(pronos, ganadores, apuestas, est);
+				db.persist(est);	 
+				db.getTransaction().commit();
+			}	
+		 	return ganadores;
+		}
+
+		private void extractedSetGanancias(Pronostico pronos, Vector<Usuario> ganadores, List<Apuesta> apuestas, Estadistica est) {
+			float totalpagado = extractedGetUsuariosGanadores(pronos, ganadores, apuestas, est);
+			est.setGanancias(est.getGanancias()-totalpagado);
+		}
+
+		private float extractedGetUsuariosGanadores(Pronostico pronos, Vector<Usuario> ganadores, List<Apuesta> apuestas, Estadistica est) {
+			float totalpagado=0;	
+			for (Apuesta a:apuestas){
+				Usuario ganador=a.getUser();
+				Usuario u=db.find(Usuario.class, ganador.getNombreUsuario());
+			 
+				totalpagado = extractedGananciasUsuario(pronos, totalpagado, a, u);
+			 
+				if(u.getCuentaDeApuestas()>=100 && u.getPorcentajeGanancias()>=95) {
+					est.anadirUsuarioAListaNegra(u);
+				} 
+				db.persist(u);
+				ganadores.add(ganador);
+			}
+			return totalpagado;
+		}
+
+		private float extractedGananciasUsuario(Pronostico pronos, float totalpagado, Apuesta a, Usuario u) {
+			float gana= a.getApuesta()+a.getApuesta()*pronos.getPorcentageGanancia();
+			totalpagado=totalpagado+gana;
+			float tenia=u.getMiMonedero();
+			u.setMiMonedero(tenia+gana);	 
+			u.setApuestasganadas(u.getApuestasganadas()+1);
+			u.setPorcentajeGanancias((float)((u.getApuestasganadas()*100)/u.getCuentaDeApuestas()));
+			return totalpagado;
 		}
 }
 

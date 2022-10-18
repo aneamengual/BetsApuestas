@@ -1,6 +1,7 @@
 package test.businessLogic;
 
 import java.util.Date;
+import java.util.Vector;
 
 import configuration.ConfigXML;
 import domain.Event;
@@ -63,6 +64,13 @@ public class TestFacadeImplementation {
 			Pronostico p=dbManagerTest.addPronostico(q, solucion, porGanancia);
 			dbManagerTest.close();
 			return p;
+		}
+		
+		public Vector<Usuario> getUsuariosGanadores(Pronostico pronos, int year) {
+			dbManagerTest.open();
+			Vector<Usuario> v=dbManagerTest.getUsuariosGanadores(pronos, year);
+			dbManagerTest.close();
+			return v;
 		}
 
 }

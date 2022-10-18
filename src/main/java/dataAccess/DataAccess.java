@@ -1,7 +1,6 @@
 package dataAccess;
 
 import java.text.SimpleDateFormat;
-import java.time.YearMonth;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
@@ -15,7 +14,6 @@ import java.util.Vector;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
-import javax.persistence.Query;
 import javax.persistence.TypedQuery;
 
 import configuration.ConfigXML;
@@ -31,7 +29,6 @@ import domain.Question;
 import domain.Seleccion;
 import domain.Subdito;
 import domain.Usuario;
-import exceptions.ApuestaAlreadyExists;
 import exceptions.EventAlreadyExists;
 import exceptions.PronosticoAlreadyExists;
 import exceptions.QuestionAlreadyExist;

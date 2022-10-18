@@ -18,6 +18,7 @@ import domain.Apuesta;
 import domain.Event;
 import domain.Pronostico;
 import domain.Question;
+import domain.Usuario;
 import exceptions.EventFinished;
 import exceptions.PronosticoAlreadyExists;
 import exceptions.QuestionAlreadyExist;
@@ -33,6 +34,7 @@ public class getUsuariosMockito {
 	DataAccess dataAccess=Mockito.mock(DataAccess.class);
     Event mockedEvent=Mockito.mock(Event.class);
     Question mockedQuestion=Mockito.mock(Question.class);
+    Pronostico mockedPronostico= Mockito.mock(Pronostico.class);
     
     @InjectMocks
 	 BLFacade sut=new BLFacadeImplementation(dataAccess);
@@ -71,6 +73,8 @@ public class getUsuariosMockito {
     		assertTrue(true);
     	}
     }
+    
+
     
     @Test
     public void test2() {
@@ -125,5 +129,56 @@ public class getUsuariosMockito {
     		assertTrue(true);
     	}
     }
+    
+   /** @Test
+    public void test2() {
+    	//Pronostico null
+    		//define paramaters
+    		Date date = new Date("05/10/2022");
+			float betmin=(float) 5.35;
+			float dinero= (float) 30;
+			Float porGan=new Float(0.3);
+			String preg="Quien ganara?";
+			int year=2022;
+			String sol=null;
+			
+			//configure Mock
+			Mockito.doReturn(sol).when(mockedPronostico).getSolucion();
+			Mockito.doReturn(null).when(dataAccess).getUsuariosGanadores(Mockito.any(Pronostico.class), Mockito.any(Integer.class));
+			
+			//invoke System Under Test (sut)  
+			Vector<Usuario> v=sut.getUsuariosGanadores(null, year);
+			
+			//verify the results
+			Mockito.verify(dataAccess,Mockito.times(1)).getUsuariosGanadores(Mockito.any(Pronostico.class), Mockito.any(Integer.class));
+			assertTrue(v.isEmpty());
+			
+    }
+    
+    @Test
+    public void test3() {
+    	
+    		//define paramaters
+    		Date date = new Date("05/10/2022");
+			float betmin=(float) 5.35;
+			float dinero= (float) 30;
+			Float porGan=new Float(0.3);
+			String preg="Quien ganara?";
+			String sol="Real";
+			Usuario u = new Usuario("Pepe", "Gil", "Gil", 688888888, "hsbhs@gmail.com", "pepito", date, "665655D", "soypepe", 6565665);
+			Vector<Usuario> v= new Vector<>();
+			v.add(u);
+			
+			//configure Mock
+			Mockito.doReturn(sol).when(mockedPronostico).getSolucion();
+			Mockito.when(dataAccess.getUsuariosGanadores(Mockito.any(Pronostico.class), Mockito.any(Integer.class))).thenReturn(v);
+			
+			//invoke System Under Test (sut)  
+			sut.getUsuariosGanadores(mockedPronostico, 2022);
+			
+			//if the program continues fail
+		    fail();
+			
+    }**/
     
 }
