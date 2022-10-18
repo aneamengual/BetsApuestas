@@ -20,6 +20,8 @@ import domain.Pronostico;
 import domain.Question;
 import domain.Seleccion;
 import domain.Usuario;
+import exceptions.EventAlreadyExists;
+import exceptions.PronosticoAlreadyExists;
 import exceptions.QuestionAlreadyExist;
 
 public class TestDataAccess {
@@ -366,6 +368,91 @@ public class TestDataAccess {
 			u.setApuestasganadas(u.getApuestasganadas()+1);
 			u.setPorcentajeGanancias((float)((u.getApuestasganadas()*100)/u.getCuentaDeApuestas()));
 			return totalpagado;
+		}
+		
+		
+			
+			
+			public Usuario crearUserBloqueado(String nombreUsuario){
+				System.out.println(">> DataAccess: addApuesta");
+				String contrasena ="hola";
+				int tel= 787788;
+				int tarjeta=8898989;
+				Date date = new Date();
+				String apellido1="ghjh";
+				String ape2="sdg";
+				String correo="ghj@hkj";
+				String dni="7868D";
+				String nombre="alex";
+				Usuario u = new Usuario(nombre,apellido1,ape2,tel,correo,nombreUsuario,date,dni, contrasena,tarjeta,true);
+				db.getTransaction().begin();
+				db.persist(u);
+				db.getTransaction().commit();
+				return u;
+				
+				}
+			
+			public Pronostico anadirPronostico(Question question, String sol, float porGanancia) throws PronosticoAlreadyExists{
+				System.out.println(">> DataAccess: CreatePronostico=> Question= "+question + " pronostico= "+sol+ " porcentageGanancia= "+porGanancia);
+				
+				Question q=db.find(Question.class, question.getQuestionNumber());
+				
+				if(q.DoesPronosticoExists(sol)) throw new PronosticoAlreadyExists(ResourceBundle.getBundle("Etiquetas").getString("PronosticoAlreadyExists"));
+				
+				db.getTransaction().begin();
+				Pronostico p= q.addPronostico(sol, porGanancia);
+				db.persist(q);
+				db.getTransaction().commit();
+				return p;
+			}
+			
+			public Event anadirEvent(String description, Date eDate, Seleccion s) throws EventAlreadyExists {
+				System.out.println(">> DataAccess: CreateEvent=> Description= "+description + " Date= "+eDate);
+				
+				TypedQuery<Event> query = db.createQuery("SELECT ev FROM Event ev WHERE ev.description=?1 AND ev.eventDate=?2 AND ev.seleccion=?3",Event.class);   
+				query.setParameter(1, description);
+				query.setParameter(2, eDate);
+				query.setParameter(3, s);
+				List<Event> events = query.getResultList();	    
+				if (!events.isEmpty()) throw new EventAlreadyExists(ResourceBundle.getBundle("Etiquetas").getString("EventAlreadyExists"));
+				Seleccion selec = db.find(Seleccion.class, s.getId());
+				
+				db.getTransaction().begin();
+				Event e= selec.addEvent(description, eDate);
+
+				db.persist(selec); 
+				db.getTransaction().commit();
+				return e;
+			}
+			
+			
+
+		
+		public Seleccion anadirSeleccion(String dep, String gen, String sel) {
+			System.out.println(">> DataAccess: CreateSelection=> Sport= "+dep + " Gender= "+gen+ " Selection= "+sel);
+			
+			TypedQuery<Seleccion> query = db.createQuery("SELECT s FROM Seleccion s WHERE s.deporte=?1 AND s.genero=?2 AND s.seleccion=?3",Seleccion.class);   
+			query.setParameter(1, dep);
+			query.setParameter(2, gen);
+			query.setParameter(3, sel);
+			List<Seleccion> selecciones = query.getResultList();	    
+			if (!selecciones.isEmpty()) { 
+				return selecciones.get(0);
+			}else {
+				db.getTransaction().begin();
+				Seleccion s= new Seleccion(dep, gen, sel);
+
+				db.persist(s); 
+				db.getTransaction().commit();
+				return s;
+			}
+		}
+
+		
+
+		
+		public void borrar() {
+			db.clear();
 		}
 }
 

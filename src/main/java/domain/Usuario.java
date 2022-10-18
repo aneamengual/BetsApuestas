@@ -56,6 +56,25 @@ public class Usuario implements Serializable{
 		this.bloqueado=false;
 	}
 	
+	public Usuario(String nombre, String apellido1, String apellido2, int telefono, String correo, String nombreUsuario, Date fechaNacimiento, String DNI, String password, int numTarjeta,boolean bloqueado) {
+		super();
+		this.nombre= nombre;
+		this.apellido1= apellido1;
+		this.apellido2= apellido2;
+		this.telefono= telefono;
+		this.correo= correo;
+		this.nombreUsuario= nombreUsuario;
+		this.fechaNacimiento= fechaNacimiento;
+		this.DNI= DNI;
+		this.password= password;
+		this.numTarjeta=numTarjeta;
+		this.miMonedero=(float)ThreadLocalRandom.current().nextDouble(10, 2000000);
+		this.cuentaDeApuestas=0;
+		this.porcentajeGanancias=0;
+		this.apuestasganadas=0;
+		this.bloqueado=bloqueado;
+	}
+	
 	public Usuario(String nombre, String password) {
 		this.nombre= nombre;
 		this.password= password;
