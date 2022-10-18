@@ -104,27 +104,7 @@ public class ComprobarDAWTest {
 	}
 	
 //NO PASA EL TEST POR INTRODUCIR LOS PARAMTEROS EN NULL ; EN ELMETOD  NO PODRA EJECUTAR LA FUNCION .length()
-	/**@Test
-	//Salta excepcion por que los paramtros introducidos son incorrectos y no cumplen las condiciones
-	public void test2_null() {
-		String nombreUsuario=null;
-		String password=null;
-		String expected= ResourceBundle.getBundle("Etiquetas").getString("UserPassWordIsWrong");
-		
-		Usuario real= null;
-		
-		try {
-			//Probamos el metodo
-			real = sut.comprobar(nombreUsuario, password);
-			
-			//Si el programa continua es fail
-			fail();
-		}catch (WrongUserOrPassword e) {
-			assertEquals(expected, e.getMessage());
-		}
-		
-	}**/
-	
+
 	//Fallo que hemos encontrado, al ser null no reconoce bien ya que no puede conseguir el length 
 
 	@Test
