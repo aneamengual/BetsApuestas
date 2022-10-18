@@ -549,8 +549,9 @@ public Vector<Usuario> getUsuariosGanadores(Pronostico pronos, int year) {
 	if(!apuestas.isEmpty()) {
 		extractedSetGanancias(pronos, ganadores, apuestas, est);
 		db.persist(est);	 
-		db.getTransaction().commit();
+		
 	}	
+	db.getTransaction().commit();
  	return ganadores;
 }
 

@@ -25,157 +25,129 @@ import test.businessLogic.TestFacadeImplementation;
 import test.dataAccess.TestDataAccess;
 
 public class getUsuariosGanadoresDAB {
-	
-	//sut:system under test
-	static DataAccess sut=new DataAccess();
-		 
-	//additional operations needed to execute the test 
-	static TestDataAccess testDA=new TestDataAccess();
-	
+
+	// sut:system under test
+	static DataAccess sut = new DataAccess();
+
+	// additional operations needed to execute the test
+	static TestDataAccess testDA = new TestDataAccess();
+
 	private Seleccion sel;
 	private Event event;
-	private Question q; 
+	private Question q;
 	private Pronostico p;
 	private Usuario u;
-	
-	
+
 	@Test
-	//question null
-	public void test1() {
-		try {
-			//define paramaters
-			Date date = new Date("05/10/2022");
-			float betmin=(float) 5.35;
-			float porGan=(float) 0.3;
-			String preg="Quien ganará?";
-			String sol="Real";
-			
-			//invoke System Under Test (sut)  
-			Pronostico p=sut.anadirPronostico(null, sol, porGan);
-			
-			//verify the results
-			assertTrue(p==null);
-			
-		}catch(PronosticoAlreadyExists e) {
-			fail();
-		}
-	}
-	
-	@Test
-	//pronostico is null
+	// pronostico is null
 	public void test2() {
 		try {
-			//define paramaters
+			// define paramaters
 			Date date = new Date("05/10/2022");
-			float betmin=(float) 5.35;
-			float porGan=(float) 0.3;
-			String preg="Quien ganará?";
-			String sol="Real";
-			p=null;
-			
-			//configure the state of the system (create object in the dabatase)
+			float betmin = (float) 5.35;
+			float porGan = (float) 0.3;
+			String preg = "Quien ganará?";
+			String sol = "Real";
+			p = null;
+
+			// configure the state of the system (create object in the dabatase)
 			testDA.open();
 			sel = testDA.addSeleccion("Futbol", "Masc", "Nacional");
-			event= testDA.addEvent("Atletico-Real", date, sel);
-			q= testDA.addQuestion(preg, betmin, event);
-			p=null;
-			testDA.close();	
-			
-			//invoke System Under Test (sut)  
-			Vector<Usuario> v=sut.getUsuariosGanadores(p, 2022);
-			
-			//verify the results
-			assertTrue(v.isEmpty());
-			
-			//p datubasean dago
-			testDA.open();
-			boolean exist = testDA.existPronos(p);
-			assertTrue(!exist);
+			event = testDA.addEvent("Atletico-Real", date, sel);
+			q = testDA.addQuestion(preg, betmin, event);
+			p = null;
 			testDA.close();
-			
-		}finally {
-			  //Remove the created objects in the database (cascade removing)   
+
+			// invoke System Under Test (sut)
+			Vector<Usuario> v = sut.getUsuariosGanadores(p, 2022);
+
+			// verify the results
+			assertTrue(v.isEmpty());
+
+		} finally {
+			// Remove the created objects in the database (cascade removing)
 			testDA.open();
-	          boolean b=testDA.removeEvent(event);
-	          testDA.close();
-	      //     System.out.println("Finally "+b);          
-	        }
+			testDA.removeEvent(event);
+			testDA.removeSeleccion(sel);
+			testDA.close();
+			// System.out.println("Finally "+b);
+		}
 	}
-	
+
 	@Test
-	//year is null
+	// year is null
 	public void test3() {
 		try {
-			//define paramaters
+			// define paramaters
 			Date date = new Date("05/10/2022");
-			float betmin=(float) 5.35;
-			float porGan=(float) 0.3;
-			String preg="Quien ganará?";
-			String sol="Real";
-			int year=(Integer) null;
-			
-			
-			//configure the state of the system (create object in the dabatase)
+			float betmin = (float) 5.35;
+			float porGan = (float) 0.3;
+			String preg = "Quien ganará?";
+			String sol = "Real";
+			int year = 0;
+
+			// configure the state of the system (create object in the dabatase)
 			testDA.open();
 			sel = testDA.addSeleccion("Futbol", "Masc", "Nacional");
-			event= testDA.addEvent("Atletico-Real", date, sel);
-			q= testDA.addQuestion(preg, betmin, event);
-			p=testDA.addPronostico(q, sol, porGan);
-			testDA.close();	
-			
-			//invoke System Under Test (sut)  
-			Vector<Usuario> v=sut.getUsuariosGanadores(p, year);
-			
-			//verify the results
+			event = testDA.addEvent("Atletico-Real", date, sel);
+			q = testDA.addQuestion(preg, betmin, event);
+			p = testDA.addPronostico(q, sol, porGan);
+			testDA.close();
+
+			// invoke System Under Test (sut)
+			Vector<Usuario> v = sut.getUsuariosGanadores(p, year);
+
+			// verify the results
 			assertTrue(v.isEmpty());
-			
-			
-		}finally {
-			  //Remove the created objects in the database (cascade removing)   
+		}catch(IndexOutOfBoundsException e) {
+			fail();
+
+		} finally {
+			// Remove the created objects in the database (cascade removing)
 			testDA.open();
-	          boolean b=testDA.removeEvent(event);
-	          testDA.close();
-	      //     System.out.println("Finally "+b);          
-	        }
+			testDA.removeEvent(event);
+			testDA.removeSeleccion(sel);
+			testDA.close();
+			// System.out.println("Finally "+b);
+		}
 	}
-	
+
 	/**@Test
-	//apuestas is empty
+	// apuestas is empty
 	public void test4() {
 		try {
-			//define paramaters
-			Date date = new Date("05/10/2022");
-			float betmin=(float) 5.35;
-			float porGan=(float) 0.3;
-			String preg="Quien ganará?";
-			String sol="Real";
-			int year=2022;
-			
-			
-			//configure the state of the system (create object in the dabatase)
+			// define paramaters
+			Date date = new Date("05/10/2023");
+			float betmin = (float) 5.35;
+			float porGan = (float) 0.3;
+			String preg = "Quien ganará?";
+			String sol = "Real";
+			int year = 2023;
+
+			// configure the state of the system (create object in the dabatase)
 			testDA.open();
-			//u = testDA.addUsuario("Pepe", "Gil", "Gil", 688888888, "hsbhs@gmail.com", "pepito", date, "665655D", "soypepe", 6565665);
+			u = testDA.crearUser("manuelll");
 			sel = testDA.addSeleccion("Futbol", "Masc", "Nacional");
-			event= testDA.addEvent("Atletico-Real", date, sel);
-			q= testDA.addQuestion(preg, betmin, event);
-			p=testDA.addPronostico(q, sol, porGan);
-			testDA.close();	
-			
-			//invoke System Under Test (sut)  
-			Vector<Usuario> v=sut.getUsuariosGanadores(p, year);
-			
-			//verify the results
-			assertTrue(v.isEmpty());
-			
-			
-		}finally {
-			  //Remove the created objects in the database (cascade removing)   
+			event = testDA.addEvent("Atletico-Real", date, sel);
+			q = testDA.addQuestion(preg, betmin, event);			
+			p = testDA.addPronostico(q, sol, porGan);
+			u.addApuesta(p, event, year);
+			testDA.close();
+
+			// invoke System Under Test (sut)
+			Vector<Usuario> v = sut.getUsuariosGanadores(p, year);
+
+			// verify the results
+			assertTrue(!v.isEmpty());
+
+		} finally {
+			// Remove the created objects in the database (cascade removing)
 			testDA.open();
-	          boolean b=testDA.removeEvent(event);
-	          testDA.close();
-	      //     System.out.println("Finally "+b);          
-	        }
+			testDA.removeEvent(event);
+			testDA.removeSeleccion(sel);
+			testDA.close();
+			// System.out.println("Finally "+b);
+		}
 	}**/
-	
 
 }

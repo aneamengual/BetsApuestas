@@ -18,6 +18,7 @@ import domain.Apuesta;
 import domain.Event;
 import domain.Pronostico;
 import domain.Question;
+import domain.Seleccion;
 import domain.Usuario;
 import exceptions.EventFinished;
 import exceptions.PronosticoAlreadyExists;
@@ -74,63 +75,8 @@ public class getUsuariosMockito {
     	}
     }
     
-
     
     @Test
-    public void test2() {
-    	//Pronostico null
-    	try {
-    		//define paramaters
-    		Date date = new Date("05/10/2022");
-			float betmin=(float) 5.35;
-			float dinero= (float) 30;
-			Float porGan=new Float(0.3);
-			String preg="Quien ganara?";
-			String sol="Real";
-			
-			//configure Mock
-			Mockito.doReturn(preg).when(mockedQuestion).getQuestion();
-			Mockito.doReturn(null).when(dataAccess).anadirPronostico(Mockito.any(Question.class), Mockito.any(String.class), Mockito.any(Float.class));
-			
-			//invoke System Under Test (sut)  
-			Pronostico p=sut.anadirPronostico(null, sol, porGan);
-			
-			//verify the results
-			Mockito.verify(dataAccess,Mockito.times(1)).anadirPronostico(Mockito.any(Question.class), Mockito.any(String.class), Mockito.any(Float.class));
-			assertTrue(p==null);
-			
-    	}catch(PronosticoAlreadyExists e) {
-    		assertTrue(true);
-    	}
-    }
-    
-    @Test
-    public void test3() {
-    	try {
-    		//define paramaters
-    		Date date = new Date("05/10/2022");
-			float betmin=(float) 5.35;
-			float dinero= (float) 30;
-			Float porGan=new Float(0.3);
-			String preg="Quien ganara?";
-			String sol="Real";
-			
-			//configure Mock
-			Mockito.doReturn(preg).when(mockedQuestion).getQuestion();
-			Mockito.when(dataAccess.anadirPronostico(Mockito.any(Question.class), Mockito.any(String.class), Mockito.any(Float.class))).thenThrow(PronosticoAlreadyExists.class);
-			
-			//invoke System Under Test (sut)  
-			sut.anadirPronostico(mockedQuestion, sol, porGan);
-			
-			//if the program continues fail
-		    fail();
-			
-    	}catch(PronosticoAlreadyExists e) {
-    		assertTrue(true);
-    	}
-    }
-    
-   /** @Test
     public void test2() {
     	//Pronostico null
     		//define paramaters
@@ -143,7 +89,7 @@ public class getUsuariosMockito {
 			String sol=null;
 			
 			//configure Mock
-			Mockito.doReturn(sol).when(mockedPronostico).getSolucion();
+			//Mockito.doReturn(sol).when(mockedPronostico).getSolucion();
 			Mockito.doReturn(null).when(dataAccess).getUsuariosGanadores(Mockito.any(Pronostico.class), Mockito.any(Integer.class));
 			
 			//invoke System Under Test (sut)  
@@ -155,30 +101,43 @@ public class getUsuariosMockito {
 			
     }
     
-    @Test
+   @Test   
     public void test3() {
-    	
+	 //without error  
+	   try
+		{
     		//define paramaters
     		Date date = new Date("05/10/2022");
 			float betmin=(float) 5.35;
 			float dinero= (float) 30;
 			Float porGan=new Float(0.3);
 			String preg="Quien ganara?";
+			String des= "Real-Alemania";
 			String sol="Real";
 			Usuario u = new Usuario("Pepe", "Gil", "Gil", 688888888, "hsbhs@gmail.com", "pepito", date, "665655D", "soypepe", 6565665);
 			Vector<Usuario> v= new Vector<>();
 			v.add(u);
+			Seleccion sel= new Seleccion("Futbol", "Masc", "Nacional");
+			Event e= new Event(des,date,sel);
+			Question q= new Question(preg, betmin,e);
+			Pronostico p= new Pronostico(q,sol,porGan);
 			
 			//configure Mock
-			Mockito.doReturn(sol).when(mockedPronostico).getSolucion();
-			Mockito.when(dataAccess.getUsuariosGanadores(Mockito.any(Pronostico.class), Mockito.any(Integer.class))).thenReturn(v);
+			Mockito.when(dataAccess.getUsuariosGanadores(p, 2022)).thenReturn(v);
 			
 			//invoke System Under Test (sut)  
-			sut.getUsuariosGanadores(mockedPronostico, 2022);
+			sut.getUsuariosGanadores(p, 2022);
 			
 			//if the program continues fail
-		    fail();
+		   // fail();
+		    
+		}
+		catch
+		(Exception e) {		
+		e.printStackTrace();
+		}
+		
 			
-    }**/
+    }
     
 }

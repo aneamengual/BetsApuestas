@@ -331,8 +331,8 @@ public class TestDataAccess {
 			if(!apuestas.isEmpty()) {
 				extractedSetGanancias(pronos, ganadores, apuestas, est);
 				db.persist(est);	 
-				db.getTransaction().commit();
-			}	
+			}
+			db.getTransaction().commit();
 		 	return ganadores;
 		}
 
