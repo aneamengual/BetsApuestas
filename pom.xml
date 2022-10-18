@@ -2,8 +2,8 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>Bets21</groupId>
-	<artifactId>Bets21</artifactId>
+	<groupId>Bets2021Ane</groupId>
+	<artifactId>Bets2021Ane</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
 	<build>
@@ -29,6 +29,10 @@
 	<properties>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<maven.compiler.source>1.8</maven.compiler.source>
+		<sonar.organization>aneamengual</sonar.organization>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+		<sonar.projectKey>Bets2021Ane</sonar.projectKey>
+		<sonar.login>1fddda6ec18936535d2a71c5e0309a44c667939e</sonar.login>
 	</properties>
 
 	<!-- https://mvnrepository.com/artifact/junit/junit -->
@@ -89,6 +93,13 @@
 			<artifactId>jta</artifactId>
 			<version>1.1</version>
 		</dependency>
+		
+		<dependency>
+<groupId>org.mockito</groupId>
+<artifactId>mockito-core</artifactId>
+<version>3.0.0</version>
+<scope>test</scope>
+</dependency>
 
 	</dependencies>
 </project>
