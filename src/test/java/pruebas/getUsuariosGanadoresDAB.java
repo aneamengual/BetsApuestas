@@ -25,7 +25,7 @@ import test.businessLogic.TestFacadeImplementation;
 import test.dataAccess.TestDataAccess;
 
 public class getUsuariosGanadoresDAB {
-/**
+
 	// sut:system under test
 	static DataAccess sut = new DataAccess();
 

@@ -162,3 +162,108 @@ Type domain.Cupon is not enhanced.
 [2022-10-19 11:31:29 #10 type] 
 Type domain.Estadistica is not enhanced.
 
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-10-19 12:25:50 #1 store] 
+Database 'C:\Users\alexg\git\BetsApuestas2\src\main\resources\bets.temp' has been recovered (tr. 1-38)
+
+[2022-10-19 12:25:50 #2 store] 
+Database 'C:\Users\alexg\git\BetsApuestas2\src\main\resources\bets.temp' is opened by 9996@LAPTOP-UMCT0H0I
+
+[2022-10-19 12:25:50 #3 store] 
+Configuration path: ?
+
+[2022-10-19 12:25:50 #4 type] 
+Type domain.Apuesta is not enhanced.
+
+[2022-10-19 12:25:50 #5 type] 
+Type domain.Event is not enhanced.
+
+[2022-10-19 12:25:50 #6 type] 
+Type domain.Pronostico is not enhanced.
+
+[2022-10-19 12:25:50 #7 type] 
+Type domain.Usuario is not enhanced.
+
+[2022-10-19 12:25:50 #8 type] 
+Type domain.Seleccion is not enhanced.
+
+[2022-10-19 12:25:50 #9 type] 
+Type domain.Question is not enhanced.
+
+[2022-10-19 12:25:50 #10 type] 
+Type domain.Cupon is not enhanced.
+
+[2022-10-19 12:25:50 #11 type] 
+Type domain.Estadistica is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-10-19 12:28:52 #1 store] 
+Database 'C:\Users\alexg\git\BetsApuestas2\src\main\resources\bets.temp' has been recovered (tr. 39-120)
+
+[2022-10-19 12:28:52 #2 store] 
+Database 'C:\Users\alexg\git\BetsApuestas2\src\main\resources\bets.temp' is opened by 20040@LAPTOP-UMCT0H0I
+
+[2022-10-19 12:28:52 #3 store] 
+Configuration path: ?
+
+[2022-10-19 12:28:53 #4 type] 
+Type domain.Apuesta is not enhanced.
+
+[2022-10-19 12:28:53 #5 type] 
+Type domain.Event is not enhanced.
+
+[2022-10-19 12:28:53 #6 type] 
+Type domain.Pronostico is not enhanced.
+
+[2022-10-19 12:28:53 #7 type] 
+Type domain.Usuario is not enhanced.
+
+[2022-10-19 12:28:53 #8 type] 
+Type domain.Seleccion is not enhanced.
+
+[2022-10-19 12:28:53 #9 type] 
+Type domain.Question is not enhanced.
+
+[2022-10-19 12:28:53 #10 type] 
+Type domain.Cupon is not enhanced.
+
+[2022-10-19 12:28:53 #11 type] 
+Type domain.Estadistica is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2022-10-19 12:33:07 #1 store] 
+Database 'C:\Users\alexg\git\BetsApuestas2\src\main\resources\bets.temp' has been recovered (tr. 121-202)
+
+[2022-10-19 12:33:07 #2 store] 
+Database 'C:\Users\alexg\git\BetsApuestas2\src\main\resources\bets.temp' is opened by 7664@LAPTOP-UMCT0H0I
+
+[2022-10-19 12:33:07 #3 store] 
+Configuration path: ?
+
+[2022-10-19 12:33:07 #4 type] 
+Type domain.Apuesta is not enhanced.
+
+[2022-10-19 12:33:07 #5 type] 
+Type domain.Event is not enhanced.
+
+[2022-10-19 12:33:07 #6 type] 
+Type domain.Pronostico is not enhanced.
+
+[2022-10-19 12:33:07 #7 type] 
+Type domain.Usuario is not enhanced.
+
+[2022-10-19 12:33:07 #8 type] 
+Type domain.Seleccion is not enhanced.
+
+[2022-10-19 12:33:07 #9 type] 
+Type domain.Question is not enhanced.
+
+[2022-10-19 12:33:07 #10 type] 
+Type domain.Cupon is not enhanced.
+
+[2022-10-19 12:33:07 #11 type] 
+Type domain.Estadistica is not enhanced.
+
