@@ -18,7 +18,7 @@ import exceptions.PronosticoAlreadyExists;
 import test.dataAccess.TestDataAccess;
 
 public class getUsuariosGanadoresDAW {
-	
+/**	
 	//sut:system under test
 	static DataAccess sut=new DataAccess();
 		 
@@ -127,5 +127,5 @@ public class getUsuariosGanadoresDAW {
 	}
 	
 	
-
+**/
 }

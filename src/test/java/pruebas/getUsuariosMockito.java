@@ -30,8 +30,9 @@ import org.mockito.InjectMocks;
 import org.mockito.Mockito;
 import org.mockito.runners.MockitoJUnitRunner;
 
-@RunWith(MockitoJUnitRunner.class)
+//@RunWith(MockitoJUnitRunner.class)
 public class getUsuariosMockito {
+	/**
 	DataAccess dataAccess=Mockito.mock(DataAccess.class);
     Event mockedEvent=Mockito.mock(Event.class);
     Question mockedQuestion=Mockito.mock(Question.class);
@@ -138,6 +139,6 @@ public class getUsuariosMockito {
 		}
 		
 			
-    }
+    }**/
     
 }
